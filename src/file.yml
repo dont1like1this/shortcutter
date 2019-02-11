@@ -1,0 +1,7 @@
+name: "test"
+links:
+  okd:
+    self: https://console.ownmdb.com:8443/console/project/${project}/overview
+    links:
+      console:
+        self: https://console.ownmdb.com:8443
