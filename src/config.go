@@ -38,3 +38,7 @@ func readConfig() Config {
 
 	return config
 }
+
+func isEmpty(link Link) bool {
+	return link.Self == "" && link.Links == nil
+}
